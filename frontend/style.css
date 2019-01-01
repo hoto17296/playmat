@@ -5,3 +5,22 @@ video {
 canvas {
   max-width: 100%;
 }
+
+#canvas-container {
+  position: relative;
+}
+
+.nub {
+  position: absolute;
+  box-sizing: border-box;
+  height: 1em;
+  width: 1em;
+  margin-top: -.5em;
+  margin-left: -.5em;
+  background-color: #c00;
+  background: linear-gradient(#f00, #900);
+  border-radius: 50%;
+  border: .2em #fff solid;
+  box-shadow: 0 .1em .3em rgba(0,0,0,.7);
+  cursor: move;
+}
